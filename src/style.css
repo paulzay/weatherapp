@@ -18,6 +18,7 @@ form {
   justify-content: space-evenly;
 }
 
-#toggle, .titles{
+#toggle,
+.titles {
   display: none;
 }

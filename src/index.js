@@ -34,7 +34,7 @@ cityForm.addEventListener('submit', (event) => {
     .then((response) => response.json())
     .then((data) => {
       weatherResult(data);
-    })
+    });
   event.preventDefault();
   cityForm.reset();
   document.getElementById('toggle').style.display = 'block';
