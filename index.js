@@ -1,7 +1,7 @@
 const cityForm = document.getElementById('city-form');
 const cityInput = document.getElementById('city');
 
-function weatherResult(i) {
+const weatherResult = (i) => {
   const temp = document.getElementById('temp');
   const celcius = Math.round(parseFloat(i.main.temp) - 273.15);
   const { pressure } = i.main;
