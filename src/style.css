@@ -17,3 +17,7 @@ form {
   display: flex;
   justify-content: space-evenly;
 }
+
+#toggle, .titles{
+  display: none;
+}

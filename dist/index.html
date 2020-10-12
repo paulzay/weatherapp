@@ -5,7 +5,7 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Weather App</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./style.css'>
+
 </head>
 <body>
     <header class="title">
@@ -22,14 +22,18 @@
     <div class="response">
         <div id="description"></div>
         <div id="pressure"></div>
-        <div id="temp"></div>
+        <div id="temps">
+            <div class="titles">Temperature</div>
+            <div id="temp"></div>
+            <button id="toggle">Change Unit</button>
+        </div>
         <div id="humidity"></div>     
         <div id="location"></div>
     </div>    
         
     </main>
 
-<script src='./index.js'></script>
+<script src='main.js'></script>
 </body>
 
 </html>
