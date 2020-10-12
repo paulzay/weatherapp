@@ -15,7 +15,7 @@ const weatherResult = (i) => {
   document.getElementById('location').innerHTML = `Location: ${i.name}`;
 
   return false;
-}
+};
 cityForm.addEventListener('submit', (event) => {
   const chosenCity = cityInput.value;
   fetch(
