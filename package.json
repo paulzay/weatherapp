@@ -4,6 +4,8 @@
   "description": "weather app from odin project to work with api",
   "main": "index.js",
   "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "paul ogolla",
