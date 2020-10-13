@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Weather App</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+
+</head>
+<body>
+    <header class="title">
+        <h1>Weather App</h1>
+        <form id="city-form">
+        
+            <label for="city">Enter your city here</label>
+            <input type="text" id="city" class="form-control" required>
+        
+            <button class="btn" type="submit">See forecast</button>
+        </form>
+    </header>
+    <main>
+    <div class="response">
+        <div id="description"></div>
+        <div id="pressure"></div>
+        <div id="temps">
+            <div class="titles">Temperature</div>
+            <div id="temp"></div>
+        
+            <button id="toggle">Change Unit</button>
+        </div>
+        <div id="humidity"></div>     
+        <div id="location"></div>
+    </div>    
+        
+    </main>
+
+<script src='main.js'></script>
+</body>
+
+</html>
+

@@ -1,0 +1,24 @@
+html { box-sizing: border-box; }
+
+html *,
+html *::before,
+html *::after { box-sizing: inherit; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+form {
+  padding: 20px;
+}
+
+.response {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#toggle,
+.titles {
+  display: none;
+}
